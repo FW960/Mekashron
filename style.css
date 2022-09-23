@@ -1,0 +1,58 @@
+.wrapper .form-margin-before-result {
+  margin: 30vh auto 0;
+}
+.wrapper .form-margin-after-result {
+  margin: 8vh auto 0;
+}
+.wrapper form {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.wrapper form .form-control {
+  padding: 5px;
+  box-sizing: border-box;
+  width: 300px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.21);
+}
+.wrapper form .btn-primary {
+  display: block;
+  width: 100%;
+  background-color: rgb(58, 113, 202);
+  border: 1px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+  cursor: pointer;
+}
+.wrapper .loginResultWrapper {
+  margin: 0 auto;
+  width: 300px;
+  min-height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.21);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.wrapper .loginResultWrapper .okResponse {
+  background-color: yellowgreen;
+}
+.wrapper .loginResultWrapper .errorResponse {
+  background-color: red;
+}
+.wrapper .loginResultWrapper .statusResult {
+  height: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.wrapper .loginResultWrapper .resultTextWrapper {
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */

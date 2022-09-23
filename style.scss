@@ -1,0 +1,67 @@
+.wrapper {
+
+    .form-margin-before-result {
+        margin: 30vh auto 0;
+    }
+    .form-margin-after-result{
+        margin: 8vh auto 0;
+    }
+
+    form {
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+        box-sizing: border-box;
+
+
+        .form-control {
+            padding: 5px;
+            box-sizing: border-box;
+            width: 300px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+        }
+
+        .btn-primary {
+            display: block;
+            width: calc(100%);
+            background-color: rgba(58, 113, 202, 255);
+            border: 1px;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 5px;
+            cursor: pointer;
+        }
+
+    }
+
+    .loginResultWrapper {
+        margin: 0 auto;
+        width: 300px;
+        min-height: 150px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        border-radius: 5px;
+        box-sizing: border-box;
+
+        .okResponse {
+            background-color: yellowgreen;
+        }
+
+        .errorResponse {
+            background-color: red;
+        }
+
+        .statusResult {
+            height: 30px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .resultTextWrapper {
+            padding: 10px;
+        }
+    }
+}
